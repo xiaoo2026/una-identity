@@ -4,9 +4,9 @@ This file is **append-only**. Every entry corresponds to a git commit that modif
 
 ---
 
-## 2026-06-30 — Origin commit
+## 2026-06-30 — Origin commit (630e333)
 
-**Commit hash**: see `git log` (this commit)
+**Commit hash**: `630e333`
 
 **Files added**:
 - `HERO_una.jpeg` — v10_caught (8-bit pixel art, red panda, 5/5 species anchors visible, pink background `#E94560`)
@@ -26,6 +26,28 @@ This file is **append-only**. Every entry corresponds to a git commit that modif
 - v17_reading (photorealistic) — style drift; lost pixel art identity
 
 These are kept locally in `_out_of_baseline/` to remind future generations what "not Una" looks like. They are deliberately **not** in the public anchor repo.
+
+---
+
+## 2026-07-01 — Character sheet extension (a3c260d4 or later)
+
+**Commit hash**: see `git log`
+
+**Files added/changed**:
+- `side-view-v1.jpeg` — first verified turnaround angle (minimax M3 image-01, 5/5 anchors, 8/10 score, 2026-06-30 23:29)
+- `una-character-sheet-v0.1.md` — character sheet v0.1 with 3-view structure (front/side/back), 5 expression specs, color key, ratio table, exclude list
+- `README.md` — extended with character sheet section + file index
+
+**What this commit anchors**:
+- The visual identity now has **two angles** (front + side) instead of one
+- Sprite extraction reference becomes possible (turnaround needed for sprite sheets)
+- Video generation reference is more complete (side view visible)
+- Character sheet v0.1 documents Una's identity at this moment in time
+
+**Provenance**:
+- Side view generated 2026-06-30 23:29 (minimax M3 image-01) via una-character-sheet prompt
+- Character sheet v0.1 written 2026-06-30 23:35 (this is v0.1, future v0.2/v1.0 will evolve)
+- GitHub push 2026-07-01 23:00 (alongside 020755 deploy cycle)
 
 ---
 
